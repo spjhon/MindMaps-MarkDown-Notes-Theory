@@ -5,3 +5,5 @@
 - Only use one <h1> per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels start with <h1>, then use <h2>, and so on.
 
 - Browsers automatically add a single blank line before and after each <p> element.
+
+- con <link> tambien se puede llamar fonts.
