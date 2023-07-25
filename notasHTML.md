@@ -7,3 +7,9 @@
 - Browsers automatically add a single blank line before and after each <p> element.
 
 - con <link> tambien se puede llamar fonts.
+
+## Canvas
+
+- In canvas the origin is still the upper-left corner of the window.
+
+- The vertical numbers increase in value moving down the screen. The standard way to write coordinates is to put the horizontal value first, followed by the vertical value.
