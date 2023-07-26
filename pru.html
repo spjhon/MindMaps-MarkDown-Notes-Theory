@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Throwing 1 dice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script>
+        let cwidth = 400;
+        let cheight = 400;
+        let dicex = 50;
+        let dicey = 50;
+        let dicewidth = 100;
+        let diceheight = 100;
+        let dotrad = 6;
+        let ctx;
+
+        function init() {
+            let ch = 1+Math.floor(Math.random()*6);
+            ctx.lineWidth = 15;
+            ctx.strokeRect(300,30,200,200);
+            drawface(ch);
+        }
+
+        function drawface(n){
+            ctx = document.getElementById("canvas").getContext("2d");
+            ctx.lineWidth = 5;
+            ctx.clearRect (dicex,dicey,dicewidth,diceheight);
+            ctx.fillStyle = "#009966"
+
+            switch (n) {
+                case 1:
+                    draw1();
+                    break;
+                case 2:
+                    draw2();
+                    break;
+                case 3:
+                    draw2();
+                    draw1();
+                    break;
+                case 4:
+                    draw4();
+                    break;
+                case 5:
+                    draw4();
+                    draw1();
+                    break;
+                case 6:
+                    draw4();
+                    draw2mid();
+                    break;
+            }
+        }
+
+        function draw1() {
+            let dotx;
+            let doty;
+            ctx.beginPath();
+            dotx = dicex + .5*dicewidth;
+            doty = dicey + .5*diceheight;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function draw2() {
+            let dotx;
+            let doty;
+            ctx.beginPath();
+            dotx = dicex + 3*dotrad;
+            doty = dicey + 3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            dotx = dicex+dicewidth-3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function draw4() {
+            let dotx;
+            let doty;
+            ctx.beginPath();
+            dotx = dicex + 3*dotrad;
+            doty = dicey + 3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            dotx = dicex+dicewidth-3*dotrad;
+            doty = dicey+diceheight-3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+
+            ctx.beginPath();
+            dotx = dicex + 3*dotrad;
+            doty = dicey + diceheight-3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            dotx = dicex+dicewidth-3*dotrad;
+            doty = dicey+3*dotrad;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function draw2mid(){
+            let dotx;
+            let doty;
+            ctx.beginPath();
+            dotx = dicex + 3*dotrad;
+            doty = dicey + .5*diceheight;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            dotx = dicex+dicewidth-3*dotrad;
+            doty = dicey+.5*diceheight;
+            ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        </script>
+
+    </head>
+    <body onLoad="init();">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+            
+            <canvas id="canvas" width="400" height="300">
+            Your browser doesn't support the HTML5 element canvas.
+            </canvas>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
