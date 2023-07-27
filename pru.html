@@ -23,8 +23,6 @@
 
         function init() {
             let ch = 1+Math.floor(Math.random()*6);
-            ctx.lineWidth = 15;
-            ctx.strokeRect(300,30,200,200);
             drawface(ch);
         }
 
@@ -32,6 +30,7 @@
             ctx = document.getElementById("canvas").getContext("2d");
             ctx.lineWidth = 5;
             ctx.clearRect (dicex,dicey,dicewidth,diceheight);
+            ctx.strokeRect(dicex,dicey,dicewidth,diceheight);
             ctx.fillStyle = "#009966"
 
             switch (n) {
