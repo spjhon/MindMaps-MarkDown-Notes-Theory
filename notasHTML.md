@@ -8,6 +8,9 @@
 
 - con <link> tambien se puede llamar fonts.
 
+- Existen constructores para ciertos elementos HTML como por ejemplo Image() que es equivalente a document.createElement('img') pero que es mas utilizado para certain scenarios, such as preloading images or creating image elements dynamically in JavaScript.
+Video y audo tags tambien poseen este constructor.
+
 ## Canvas
 
 - In canvas the origin is still the upper-left corner of the window.
