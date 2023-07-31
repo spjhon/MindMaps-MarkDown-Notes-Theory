@@ -8,3 +8,5 @@
 *Extracted from: [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:autofill)*
 
 - CSS Float Layouts are deprecated the current standards are CSS grid layout and CSS flexbox
+
+- Existe valid e invalid para los input desde CSS
