@@ -17,3 +17,9 @@ Pure functions can mutate local data within the function as long as it satisfies
 # THE PROTOTYPE CHAIN
 
 La cadena "prototype" en JavaScript se refiere a un mecanismo de herencia y extensión que está presente en todos los objetos en JavaScript, incluyendo los objetos construidos mediante funciones constructoras, como los objetos nativos como Array, String, Number, etc. (Obtenido de chatGPT).
+
+
+- In javascript the trigonometry is all in RADIANS
+
+- A fragment of code that produces a value is called an expression.
+
