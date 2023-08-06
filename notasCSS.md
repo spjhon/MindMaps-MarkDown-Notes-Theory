@@ -10,3 +10,14 @@
 - CSS Float Layouts are deprecated the current standards are CSS grid layout and CSS flexbox
 
 - Existe valid e invalid para los input desde CSS
+
+- UI or User Interface is the visual representation of a digital
+product. Its obvious use cases are apps and websites.
+
+- UX or User Experience de"nes and studies how easy it is to
+use the product.
+
+- CX or Customer Experience is o#en confused as being another
+name for UX. The truth is that CX is a top-level process that
+de"nes not only how your product works, but how your entire
+company operates.
