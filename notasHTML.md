@@ -11,8 +11,12 @@
 - Existen constructores para ciertos elementos HTML como por ejemplo Image() que es equivalente a document.createElement('img') pero que es mas utilizado para certain scenarios, such as preloading images or creating image elements dynamically in JavaScript.
 Video y audo tags tambien poseen este constructor.
 
+- Hay que tener en cuenta que cada navegador tiene su propia forma de interpretar css y otros elementos como la politica de autoplay en chrome
+
 ## Canvas
 
 - In canvas the origin is still the upper-left corner of the window.
 
 - The vertical numbers increase in value moving down the screen. The standard way to write coordinates is to put the horizontal value first, followed by the vertical value.
+
+- 
