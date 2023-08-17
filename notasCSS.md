@@ -21,3 +21,6 @@ use the product.
 name for UX. The truth is that CX is a top-level process that
 de"nes not only how your product works, but how your entire
 company operates.
+
+- Applying box-sizing: border-box lo que hace es que cuando se refiere al height y al width, lo que hace es que coge content, padding y border y deja suelto el margin, por eso se le llama content-box (por que agarra solo el content) y border-box (donde la caja se cuenta desde el border)
+

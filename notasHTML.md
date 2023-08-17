@@ -11,7 +11,7 @@
 - Existen constructores para ciertos elementos HTML como por ejemplo Image() que es equivalente a document.createElement('img') pero que es mas utilizado para certain scenarios, such as preloading images or creating image elements dynamically in JavaScript.
 Video y audo tags tambien poseen este constructor.
 
-- Hay que tener en cuenta que cada navegador tiene su propia forma de interpretar css y otros elementos como la politica de autoplay en chrome
+- Hay que tener en cuenta que cada navegador tiene su propia forma de interpretar css y otros elementos como la politica de autoplay en chrome.
 
 ## Canvas
 
