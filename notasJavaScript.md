@@ -29,3 +29,6 @@ La cadena "prototype" en JavaScript se refiere a un mecanismo de herencia y exte
 
 
 - You can return false in a onSubmit to prevent reload of the submit in a form
+
+- Unit test is for bussiness logic (even in the front) and Automated browser tests like with cypress are for functionality.
+Unit testing allows you to test all sorts of scenarios with none of the complicated and flakey test setups that integration style tests require.
