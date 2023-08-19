@@ -54,4 +54,8 @@ company operates.
 
 - Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like 1,1,0
 
+- La mejor estrategia con la especividad es que sea lo mas neutral posible con respecto a las otras.
+
+
+
 
