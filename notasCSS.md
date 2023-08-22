@@ -21,6 +21,10 @@ User Stylesheets: Styles applied by users.
 - < !important > Inline Styles > IDs > Classes/Attributes > Elements.
 The more specific selector wins.
 
+- Use initial and do NOT use auto to reset styles.
+
+- Shorthand properties override all the properties that shorthand.
+
 
 
 **Pseudo-Clases**
@@ -52,10 +56,18 @@ company operates.
 
 **Especificity and cascade**
 
-- Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like 1,1,0
+- Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like (1,1,0), (IDs,Classes,Tags)
 
 - La mejor estrategia con la especividad es que sea lo mas neutral posible con respecto a las otras.
 
+**Units**, most advice come from CSS in Depth
 
+- Pixel is a slightly misleading name—a CSS pixel does not strictly equate to a monitor’s pixel.
+
+- Values declared using relative units are evaluated by the browser to an absolute value, called the computed value.
+
+- Using ems can be convenient when setting properties like padding, height, width, or border-radius because these will scale evenly with the element if it inherits different font sizes, or if the user changes the font settings.
+
+- pixel-based font size you’d like
 
 

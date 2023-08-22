@@ -18,7 +18,12 @@
 
 : HTML element that does not have a closing tag. Instead, it is self-closed within a single tag.
 
+# CSS
 
+## Cascade Value
+
+: cascaded value—A value for a particular property applied to an element as a
+result of the cascade.
 # REACT
 
 ## stateful component
