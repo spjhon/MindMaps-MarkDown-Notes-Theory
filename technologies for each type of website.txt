@@ -37,3 +37,5 @@ Non-profit organization websites
 Photography websites
 Restaurant websites
 Remember that these are general categories, and some websites may utilize a combination of rendering methods depending on their specific needs.
+
+https://blog.sandworm.dev/state-of-npm-2023-most-popular-best-quality-packages

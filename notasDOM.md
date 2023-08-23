@@ -8,6 +8,8 @@
 
 - Dentro del documento (document), la raíz es el elemento <html>, que contiene todos los demás elementos de la página.
 
+- document.documentElement is used to obtain a reference to the root element of the HTML document, which is typically the <html> element.
+
 - el root es un selector CSS que tiene mas espcividad que el HTML, sin embargo representan lo mismo.
 
 - La comunicación entre el DOM y el navegador se realiza a través de APIs (Interfaces de Programación de Aplicaciones). Estas APIs proporcionan métodos y eventos que permiten interactuar con el DOM y realizar diversas operaciones, como manipular elementos, cambiar estilos, agregar o eliminar contenido, entre otros.

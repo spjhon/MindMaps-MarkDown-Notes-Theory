@@ -68,6 +68,22 @@ company operates.
 
 - Using ems can be convenient when setting properties like padding, height, width, or border-radius because these will scale evenly with the element if it inherits different font sizes, or if the user changes the font settings.
 
-- pixel-based font size you’d like
+- browser’s default font size is 16 px
 
+- By pressing Ctrl-plus (+) or Ctrl-minus (–), this setting does not resize fonts defined using pixels or other absolute units. (USE relative units or percentages.)
+
+- My default is to use rems for font sizes, pixels for borders, and ems for most other measures, especially paddings, margins, and border radius (though I favor the use of percentages for container widths when necessary). Keep a calculator close.
+
+Example: Let’s say you want your default font size to be 14 px. Instead of setting a 10 px default then overriding it throughout the page, set that value at the root. The desired value divided by the inherited value—in this case, the browser’s default—is 14/16, which equals 0.875.
+
+- You can use some media queries to change the base font size, depending on the screen size. 
+
+- If you are disciplined enough to style your entire page in relative units like this, the entire page will scale up and down based on the viewport size.
+
+## viewport 
+The framed area in the browser window where the web page is visible. This excludes the browser’s address bar, toolbars, and status bar, if present.
+
+- W3C means (World Wide Web Consortium)
+
+- The var() function accepts a second parameter, which specifies a fallback value. If the variable specified in the first parameter is not defined, then the second value is used instead.
 
