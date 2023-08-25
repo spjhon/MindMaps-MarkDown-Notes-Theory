@@ -54,6 +54,26 @@ company operates.
 - Applying box-sizing: border-box lo que hace es que cuando se refiere al height y al width, lo que hace es que coge content, padding y border y deja suelto el margin, por eso se le llama content-box (por que agarra solo el content) y border-box (donde la caja se cuenta desde el border)
 - Esto se aplica cuando se le da un height y un width al elemento entonces la forma en que se calcula esto es donde cambia si es content-box o box-sizing
 
+- USE THIS IN ALL SHEETS
+
+:root {
+      box-sizing: border-box;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: inherit;
+    }
+
+- Never give a fixed heigh to an element, let the flow of the document take charge. Use min-height and max-height ot do it.
+
+- A vertical-align declaration only affects inline and table-cell elements. Its usefull with tables though.
+
+- Collapsing: Margin collapsing only occurs with top and bottom margins. Left and right margins don’t collapse.
+
+- margins of flexbox items don’t collapse
+
 **Especificity and cascade**
 
 - Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like (1,1,0), (IDs,Classes,Tags)
@@ -86,4 +106,8 @@ The framed area in the browser window where the web page is visible. This exclud
 - W3C means (World Wide Web Consortium)
 
 - The var() function accepts a second parameter, which specifies a fallback value. If the variable specified in the first parameter is not defined, then the second value is used instead.
+
+**Floats**
+
+- A float pulls an element (often an image) to one side of its container, allowing the document flow to wrap around it
 
