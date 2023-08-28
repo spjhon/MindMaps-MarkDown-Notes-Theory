@@ -74,6 +74,8 @@ company operates.
 
 - margins of flexbox items don’t collapse
 
+- margins c can’t be applied to table-cell elements.
+
 **Especificity and cascade**
 
 - Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like (1,1,0), (IDs,Classes,Tags)
