@@ -1,52 +1,27 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>box sizing</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .custom-button {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
 
-            div {
-                border: medium dashed green;
-                margin: 30px;
-                width: 300px;
-                height: 100px;
-                padding: 10px;
-            }
-
-            .primerDiv {
-                box-sizing: content-box;
-            }
-
-            .segundoDiv {
-                box-sizing: border-box;
-            }
-        </style>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div class="primerDiv">
-            <p>parrafo de muestra</p>
-        </div>
-
-        <div class="segundoDiv">
-            <p>parrafo de muestra 2</p>
-        </div>
-
-
-
-
-        
-        <script src="" async defer></script>
-    </body>
+        .custom-button:hover {
+            transform: scale(1.05); /* Scale up the button on hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+    </style>
+</head>
+<body>
+    <button class="custom-button">Click Me</button>
+</body>
 </html>

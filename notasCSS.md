@@ -113,3 +113,5 @@ The framed area in the browser window where the web page is visible. This exclud
 
 - A float pulls an element (often an image) to one side of its container, allowing the document flow to wrap around it
 
+- pseudo-element 
+Special selectors that target certain parts of the document. These begin with a double-colon (::) syntax, though most browsers also support a single-colon syntax for backward compatibility. The most common pseudo-elements are ::before and ::after, which are used to insert content at the beginning or end of an element.
