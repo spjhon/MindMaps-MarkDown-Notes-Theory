@@ -32,3 +32,13 @@ La cadena "prototype" en JavaScript se refiere a un mecanismo de herencia y exte
 
 - Unit test is for bussiness logic (even in the front) and Automated browser tests like with cypress are for functionality.
 Unit testing allows you to test all sorts of scenarios with none of the complicated and flakey test setups that integration style tests require.
+
+
+- What are JavaScript data types?: The latest ECMAScript standard defines seven data types, six of them being primitive: 
+Boolean, 
+Null, 
+Undefined, 
+Number, 
+String, 
+Symbol 
+and one non-primitive data type: Object.
