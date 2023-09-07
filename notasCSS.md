@@ -76,6 +76,8 @@ company operates.
 
 - margins c can’t be applied to table-cell elements.
 
+- Inline Elements: Margins and padding applied to inline elements only affect the left and right sides, not the top and bottom.
+
 **Especificity and cascade**
 
 - Check the chapter 1 of the book CSS in Deep the manning publications, including specificity notation like (1,1,0), (IDs,Classes,Tags)
