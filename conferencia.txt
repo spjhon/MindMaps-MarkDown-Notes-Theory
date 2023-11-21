@@ -1,0 +1,17 @@
+When we are software developers, we rarely are directly responsible making
+money for the company. Typically the things that we make are tools that allow those
+that make money for the company to work more efficiently.
+
+We are productivity amplifiers.
+
+We can help companies survive in difficult times if we work on the right things.
+
+Web Assembly could be the future in web enviroment due to the ability to run 
+c++ and c# on the web.
+
+.net rocks.
+
+Dont jump into new technology if the current technology stills solve the business
+probelm at the speed that the bussiness problem requires.
+
+The future is analysing data.
